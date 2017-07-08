@@ -4,8 +4,12 @@
   "main": "main.js",
   "author": "Yaniv Mordekhay <y.mordekhay@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "electron": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
   }
 }
