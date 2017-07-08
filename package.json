@@ -1,0 +1,11 @@
+{
+  "name": "electric-sphinx",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Yaniv Mordekhay <y.mordekhay@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}
