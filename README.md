@@ -1,1 +1,1 @@
-# atomic-sphinx
+# electric-sphinx
