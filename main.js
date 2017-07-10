@@ -7,11 +7,24 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const url = require('url');
 
+const mainMenuTemplate = [
+  {
+    label: 'File',
+    submenu: [
+      { label: 'Exit', role: 'quit' },
+    ],
+  },
+];
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
 function createWindow() {
+  // Load the main menu
+  const mainMenu = electron.Menu.buildFromTemplate(mainMenuTemplate);
+  electron.Menu.setApplicationMenu(mainMenu);
+
   // Create the browser window.
   mainWindow = new BrowserWindow({ width: 800, height: 600 });
 
