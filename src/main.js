@@ -18,14 +18,26 @@ function createMainMenu() {
     {
       label: 'File',
       submenu: [
+        { label: 'Reload', role: 'reload' },
+        { type: 'separator' },
+        { label: 'Toggle Developer Tools', role: 'toggledevtools' },
+        { type: 'separator' },
         { label: 'Exit', role: 'quit' },
       ],
     }, {
-      label: 'Navigation',
+      label: 'View',
       submenu: [
+        { label: 'Zoom In', role: 'zoomin' },
+        { label: 'Zoom Out', role: 'zoomout' },
+        { label: 'Reset Zoom', role: 'resetzoom' },
+      ],
+    }, {
+      label: 'Go',
+      submenu: [
+        { label: 'Home' },
+        { type: 'separator' },
         { label: 'Back' },
         { label: 'Forward' },
-        { label: 'Reload', role: 'reload' },
       ],
     }, {
       label: 'Project',
