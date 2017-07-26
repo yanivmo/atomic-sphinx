@@ -1,3 +1,4 @@
+/* eslint-env browser */
 const path = require('path');
 const remote = require('electron').remote;
 
